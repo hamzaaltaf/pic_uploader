@@ -17,6 +17,12 @@ ActiveRecord::Schema.define(version: 20190413142419) do
 
   create_table "pictures", force: :cascade do |t|
     t.string "url"
+    t.string "question"
+    t.string "option1"
+    t.string "option2"
+    t.string "option3"
+    t.string "option4"
+    t.string "option5"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
